@@ -1,3 +1,19 @@
+/.bundle
+/db/*.sqlite3
+/log/*.log
+cache
+config/database.yml
+config/google_analytics.yml
+.DS_Store
+/nbproject/
+public/assets/**
+
+blog/tmp
+/log/* 
+.log 
+/tmp/ 
+!/log/.keep 
+!/tmp/.keep
 *.gem
 *.rbc
 /.config
@@ -63,6 +79,6 @@ db/schema.rb linguist-generated
 # Mark any vendored files as having been vendored.
 vendor/* linguist-vendored
 
-tmp
+
 
 master.key
